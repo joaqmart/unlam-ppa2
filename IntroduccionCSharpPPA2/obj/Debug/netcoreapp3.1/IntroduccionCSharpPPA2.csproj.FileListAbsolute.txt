@@ -1,0 +1,14 @@
+C:\Users\p046766\Carrera_Matanza\2doCuatrimestre2022\programacion2\practicas_locales\IntroduccionCSharpPPA2\bin\Debug\netcoreapp3.1\IntroduccionCSharpPPA2.exe
+C:\Users\p046766\Carrera_Matanza\2doCuatrimestre2022\programacion2\practicas_locales\IntroduccionCSharpPPA2\bin\Debug\netcoreapp3.1\IntroduccionCSharpPPA2.deps.json
+C:\Users\p046766\Carrera_Matanza\2doCuatrimestre2022\programacion2\practicas_locales\IntroduccionCSharpPPA2\bin\Debug\netcoreapp3.1\IntroduccionCSharpPPA2.runtimeconfig.json
+C:\Users\p046766\Carrera_Matanza\2doCuatrimestre2022\programacion2\practicas_locales\IntroduccionCSharpPPA2\bin\Debug\netcoreapp3.1\IntroduccionCSharpPPA2.runtimeconfig.dev.json
+C:\Users\p046766\Carrera_Matanza\2doCuatrimestre2022\programacion2\practicas_locales\IntroduccionCSharpPPA2\bin\Debug\netcoreapp3.1\IntroduccionCSharpPPA2.dll
+C:\Users\p046766\Carrera_Matanza\2doCuatrimestre2022\programacion2\practicas_locales\IntroduccionCSharpPPA2\bin\Debug\netcoreapp3.1\IntroduccionCSharpPPA2.pdb
+C:\Users\p046766\Carrera_Matanza\2doCuatrimestre2022\programacion2\practicas_locales\IntroduccionCSharpPPA2\obj\Debug\netcoreapp3.1\IntroduccionCSharpPPA2.csproj.AssemblyReference.cache
+C:\Users\p046766\Carrera_Matanza\2doCuatrimestre2022\programacion2\practicas_locales\IntroduccionCSharpPPA2\obj\Debug\netcoreapp3.1\IntroduccionCSharpPPA2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\p046766\Carrera_Matanza\2doCuatrimestre2022\programacion2\practicas_locales\IntroduccionCSharpPPA2\obj\Debug\netcoreapp3.1\IntroduccionCSharpPPA2.AssemblyInfoInputs.cache
+C:\Users\p046766\Carrera_Matanza\2doCuatrimestre2022\programacion2\practicas_locales\IntroduccionCSharpPPA2\obj\Debug\netcoreapp3.1\IntroduccionCSharpPPA2.AssemblyInfo.cs
+C:\Users\p046766\Carrera_Matanza\2doCuatrimestre2022\programacion2\practicas_locales\IntroduccionCSharpPPA2\obj\Debug\netcoreapp3.1\IntroduccionCSharpPPA2.csproj.CoreCompileInputs.cache
+C:\Users\p046766\Carrera_Matanza\2doCuatrimestre2022\programacion2\practicas_locales\IntroduccionCSharpPPA2\obj\Debug\netcoreapp3.1\IntroduccionCSharpPPA2.dll
+C:\Users\p046766\Carrera_Matanza\2doCuatrimestre2022\programacion2\practicas_locales\IntroduccionCSharpPPA2\obj\Debug\netcoreapp3.1\IntroduccionCSharpPPA2.pdb
+C:\Users\p046766\Carrera_Matanza\2doCuatrimestre2022\programacion2\practicas_locales\IntroduccionCSharpPPA2\obj\Debug\netcoreapp3.1\IntroduccionCSharpPPA2.genruntimeconfig.cache
