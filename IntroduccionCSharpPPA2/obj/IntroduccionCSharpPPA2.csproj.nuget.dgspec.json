@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\p046766\\Carrera_Matanza\\2doCuatrimestre2022\\programacion2\\practicas_locales\\IntroduccionCSharpPPA2\\IntroduccionCSharpPPA2.csproj": {}
+    "C:\\Users\\p046766\\Carrera_Matanza\\2doCuatrimestre2022\\programacion2\\repo_joaco_git\\unlam-ppa2\\IntroduccionCSharpPPA2\\IntroduccionCSharpPPA2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\p046766\\Carrera_Matanza\\2doCuatrimestre2022\\programacion2\\practicas_locales\\IntroduccionCSharpPPA2\\IntroduccionCSharpPPA2.csproj": {
+    "C:\\Users\\p046766\\Carrera_Matanza\\2doCuatrimestre2022\\programacion2\\repo_joaco_git\\unlam-ppa2\\IntroduccionCSharpPPA2\\IntroduccionCSharpPPA2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\p046766\\Carrera_Matanza\\2doCuatrimestre2022\\programacion2\\practicas_locales\\IntroduccionCSharpPPA2\\IntroduccionCSharpPPA2.csproj",
+        "projectUniqueName": "C:\\Users\\p046766\\Carrera_Matanza\\2doCuatrimestre2022\\programacion2\\repo_joaco_git\\unlam-ppa2\\IntroduccionCSharpPPA2\\IntroduccionCSharpPPA2.csproj",
         "projectName": "IntroduccionCSharpPPA2",
-        "projectPath": "C:\\Users\\p046766\\Carrera_Matanza\\2doCuatrimestre2022\\programacion2\\practicas_locales\\IntroduccionCSharpPPA2\\IntroduccionCSharpPPA2.csproj",
+        "projectPath": "C:\\Users\\p046766\\Carrera_Matanza\\2doCuatrimestre2022\\programacion2\\repo_joaco_git\\unlam-ppa2\\IntroduccionCSharpPPA2\\IntroduccionCSharpPPA2.csproj",
         "packagesPath": "C:\\Users\\p046766\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\p046766\\Carrera_Matanza\\2doCuatrimestre2022\\programacion2\\practicas_locales\\IntroduccionCSharpPPA2\\obj\\",
+        "outputPath": "C:\\Users\\p046766\\Carrera_Matanza\\2doCuatrimestre2022\\programacion2\\repo_joaco_git\\unlam-ppa2\\IntroduccionCSharpPPA2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\p046766\\AppData\\Roaming\\NuGet\\NuGet.Config",

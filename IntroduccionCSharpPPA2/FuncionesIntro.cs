@@ -4,12 +4,12 @@ using System.Text;
 
 namespace IntroduccionCSharpPPA2
 {
-    internal class FuncionesIntro
+    public class FuncionesIntro
     {
         enum DiasSemana { Domingo=1, Lunes=2, Martes=3, Miércoles=4, Jueves=5, Viernes=6, Sábado=7 };
 
         public enum Colores { Blanco,Azul,Negro };
-        public void SumaDosNumeros(string valor1,string valor2)
+        public Int64 SumaDosNumeros(string valor1,string valor2)
         {
             Int64 valor1Int = 0;
             if (Int64.TryParse(valor1, out valor1Int))
@@ -22,20 +22,21 @@ namespace IntroduccionCSharpPPA2
                 valor2Int = Int64.Parse(valor2);
             }
             Console.WriteLine("la suma de los numeros valor1:{0} y valor2:{1} es {2}",valor1Int.ToString(),valor2Int.ToString(),(valor1Int + valor2Int).ToString());
-            
+            return valor1Int + valor2Int;
         }
 
-        public void CadenaOcho(ref string valor1)
+        public string CadenaOcho(string valor1)
         {
             
-            valor1 = valor1.Length==8?valor1.Substring(0, 4): valor1;
-
+            
+            return valor1!=null?valor1.Length==8?valor1.Substring(0, 4): valor1:null;
+            
 
 
         }
-        public void FechaHoraActual()
+        public DateTime FechaHoraActual()
         {
-            Console.WriteLine(DateTime.Now);
+            return DateTime.Now;
         }
         public void LeeDiasSemana()
         {
@@ -81,9 +82,8 @@ namespace IntroduccionCSharpPPA2
             decimal b = 10;
             Console.WriteLine("Se convierte{0} a decimal y resulta{1} ", 10, b);
             int c = 443444;
-            Console.WriteLine("Se convierte{0} a entero y resulta{1} ", 443444, c);//creo que dará overflow
-            short d = (short)a;
-            Console.WriteLine("Se convierte{0} a short y resulta{1} ", a, d);
+            short d = (short)c;
+            Console.WriteLine("Se convierte{0} a short y resulta{1} ", c, d);
             
 
         }
