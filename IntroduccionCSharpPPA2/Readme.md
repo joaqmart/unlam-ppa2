@@ -10,3 +10,4 @@
                 Además, no nos garantiza el orden en el que se accede
                 Fuente: https://es.stackoverflow.com/questions/102524/diferencia-entre-for-y-for-each#:~:text=La%20principal%20diferencia%2C%20en%20la,en%20el%20que%20se%20accede.
 
+ponemos un hola en la ultima linea para generar el conflicto
