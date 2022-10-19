@@ -16,9 +16,9 @@ namespace IntroduccionCTest
         [Test]
         public void TestSumaDosNumerosHappyPath()
         {
-            string a = "3";
-            string b = "4";
-            long resultadoEsperado = 7;
+            int a = 3;
+            int b = 4;
+            int resultadoEsperado = 7;
             
             long resultadoObtenido=claseTest.SumaDosNumeros(a,b);
 
@@ -27,26 +27,15 @@ namespace IntroduccionCTest
         [Test]
         public void TestSumaDosNumerosError()
         {
-            string a = "a";
-            string b = "4";
-            long resultadoEsperado = 4;
+            int a = 3;
+            int b = 4;
+            int resultadoEsperado = 4;
             
             long resultadoObtenido = claseTest.SumaDosNumeros(a, b);
 
-            Assert.AreEqual(resultadoObtenido, resultadoEsperado);
+            Assert.AreNotEqual(resultadoObtenido, resultadoEsperado);
         }
-        [Test]
-        public void TestSumaDosNumerosErrorAmbosNumeros()
-        {
-            string a = "a";
-            string b = "b";
-            long resultadoEsperado = 0;
-            
-            long resultadoObtenido = claseTest.SumaDosNumeros(a, b);
-
-            Assert.AreEqual(resultadoObtenido, resultadoEsperado);
-        }
-
+      
         public void TestCadenaOchoHappyPath()
         {
             string a = "puntapie";

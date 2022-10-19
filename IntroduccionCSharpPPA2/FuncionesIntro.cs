@@ -8,31 +8,16 @@ namespace IntroduccionCSharpPPA2
     {
         enum DiasSemana { Domingo=1, Lunes=2, Martes=3, Miércoles=4, Jueves=5, Viernes=6, Sábado=7 };
 
-        public enum Colores { Blanco,Azul,Negro };
-        public Int64 SumaDosNumeros(string valor1,string valor2)
+        public enum Colores { Blanco, Azul, Negro };
+        public Int64 SumaDosNumeros(int valor1,int valor2)
         {
-            Int64 valor1Int = 0;
-            if (Int64.TryParse(valor1, out valor1Int))
-            {
-                valor1Int = Int64.Parse(valor1);
-            }
-            Int64 valor2Int = 0;
-            if (Int64.TryParse(valor2, out valor2Int))
-            {
-                valor2Int = Int64.Parse(valor2);
-            }
-            Console.WriteLine("la suma de los numeros valor1:{0} y valor2:{1} es {2}",valor1Int.ToString(),valor2Int.ToString(),(valor1Int + valor2Int).ToString());
-            return valor1Int + valor2Int;
+            Console.WriteLine("la suma de los numeros valor1:{0} y valor2:{1} es {2}",valor1 ,valor2,(valor1 + valor2));
+            return valor1 + valor2;
         }
 
         public string CadenaOcho(string valor1)
         {
-            
-            
             return valor1!=null?valor1.Length==8?valor1.Substring(0, 4): valor1:null;
-            
-
-
         }
         public DateTime FechaHoraActual()
         {
@@ -40,7 +25,6 @@ namespace IntroduccionCSharpPPA2
         }
         public void LeeDiasSemana()
         {
-
             Console.WriteLine(DiasSemana.Domingo); //Domingo
             Console.WriteLine(DiasSemana.Lunes); // Lunes
             Console.WriteLine(DiasSemana.Martes); // Martes
@@ -48,7 +32,6 @@ namespace IntroduccionCSharpPPA2
             Console.WriteLine(DiasSemana.Jueves); // Jueves
             Console.WriteLine(DiasSemana.Viernes); // Viernes
             Console.WriteLine(DiasSemana.Sábado); // Sabado
-
         }
         public void ConversionBoolean()
         {
@@ -63,7 +46,6 @@ namespace IntroduccionCSharpPPA2
             /* no se aceptan 0 o 1 solo true or false
             Console.WriteLine(Boolean.Parse("1"));
             Console.WriteLine(Boolean.Parse('0'));
-            
              */
             Console.WriteLine("Método BoolTryParse");
             bool result;
@@ -71,9 +53,6 @@ namespace IntroduccionCSharpPPA2
             Console.WriteLine(Boolean.TryParse("false", out result));
             Console.WriteLine(Boolean.TryParse("1", out result));
             Console.WriteLine(Boolean.TryParse("0",out result));
-
-
-
         }
         public void ConversionesEnteras()
         {
@@ -84,8 +63,6 @@ namespace IntroduccionCSharpPPA2
             int c = 443444;
             short d = (short)c;
             Console.WriteLine("Se convierte{0} a short y resulta{1} ", c, d);
-            
-
         }
 
         public void InformaColores(Colores misColores)
@@ -105,7 +82,6 @@ namespace IntroduccionCSharpPPA2
                 default:
                     Console.WriteLine("Yo no soy un color");
                     break;
-
             }
         }
         public void MayorADiez(int valor)
